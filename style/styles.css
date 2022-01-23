@@ -117,7 +117,7 @@ body {
 }
 
 .container-project {
-  width: 70vw;
+  width: 60vw;
   display: flex;
 }
 
@@ -137,4 +137,30 @@ body {
   border: 5px solid #3882f6;
   border-radius: 15px;
   padding: 10px;
+}
+
+/* Quote */
+
+.quote {
+  height: 50vh;
+  background-color: #e5e7eb;
+}
+
+.container-quote {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.container-quote q {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container-quote p {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: right;
+  margin: 20px 0;
 }
