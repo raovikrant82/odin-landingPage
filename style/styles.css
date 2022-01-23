@@ -11,6 +11,7 @@ body {
   width: 99vw;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
+  background-color: #1f2937;
 }
 
 /* Header */
@@ -81,7 +82,7 @@ body {
   margin-bottom: 48px;
 }
 
-.main .btn {
+.btn {
   font-size: 18px;
   background-color: #3882f6;
   color: #e5e7eb;
@@ -90,7 +91,7 @@ body {
   border-radius: 10px;
 }
 
-.main .btn:hover {
+.btn:hover {
   background-color: #0d6aff;
 }
 
@@ -164,3 +165,52 @@ body {
   text-align: right;
   margin: 20px 0;
 }
+
+/* Footer */
+
+.footer {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container-footer {
+  height: 50%;
+  width: 70vw;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer .info {
+  color: #e5e7eb;
+}
+
+.container-footer .btn {
+  border: 2px solid #e5e7eb;
+}
+
+/* About page */
+.about-main {
+  width: 70vw;
+  margin: 50px auto;
+  text-align: justify;
+  text-indent: 25px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.about-main p {
+  margin: 10px 0;
+}
+
+.about-main span {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/*  Contact */
