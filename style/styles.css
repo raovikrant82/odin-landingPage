@@ -8,7 +8,8 @@
 
 html,
 body {
-  width: 100vw;
+  width: 99vw;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
 
@@ -29,6 +30,7 @@ body {
 
 .header a {
   display: flex;
+  text-decoration: none;
 }
 
 .left,
@@ -48,8 +50,91 @@ body {
   gap: 50px;
 }
 
-.header li {
+.header li a {
   font-size: 18px;
   color: #e5e7eb;
+  padding: 10px;
+}
+
+/* Hero */
+
+.main {
+  width: 70vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.main .info {
+  padding-right: 48px;
+}
+
+.main h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 48px;
+}
+
+.main p {
+  margin-bottom: 48px;
+}
+
+.main .btn {
+  font-size: 18px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+}
+
+.main .btn:hover {
+  background-color: #0d6aff;
+}
+
+.main img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Random info section */
+
+.project {
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.project h2 {
+  color: #1f2937;
+  font-size: 36px;
+  padding: 50px 0;
+}
+
+.container-project {
+  width: 70vw;
+  display: flex;
+}
+
+.container-project div {
+  flex: 1 1 25%;
+  text-align: center;
+}
+
+.container-project .project-info {
+  padding: 20px;
+  color: #1f2937;
+}
+
+.project-image {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
   padding: 10px;
 }
