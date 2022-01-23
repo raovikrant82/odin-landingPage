@@ -29,9 +29,10 @@ body {
   margin: 0 auto;
 }
 
-.header a {
+a {
   display: flex;
   text-decoration: none;
+  color: #e5e7eb;
 }
 
 .left,
@@ -214,3 +215,18 @@ body {
 }
 
 /*  Contact */
+.container-contact {
+  height: 60vh;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.container-contact p {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.container-contact address {
+  margin: 50px 0;
+}
